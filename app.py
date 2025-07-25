@@ -88,7 +88,7 @@ def job_list_page():
     st.title("Job Listings")
 
     # 读取Excel文件
-    df = pd.read_excel("软工数据库.xlsx", sheet_name='工作表1')
+    df = pd.read_excel("数据库.xlsx", sheet_name='工作表1')
 
     # 确保正确的列
     columns_to_show = ['Job Title', 'Company Name', 'Work City', 'Salary', 'Application Deadline', 'Job Description']
